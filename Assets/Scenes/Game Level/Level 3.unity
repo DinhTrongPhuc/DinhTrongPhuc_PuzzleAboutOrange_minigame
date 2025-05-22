@@ -2325,6 +2325,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   board: {fileID: 308843792}
+  orangeFullPrefab: {fileID: 0}
   timeLimit: 45
   timerText: {fileID: 914529142}
   winPanel: {fileID: 1712096050}
@@ -2837,7 +2838,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levels:
-  - {fileID: 11400000, guid: e44f33b6d4a2211469a34c2a27d201bd, type: 2}
+  - {fileID: 11400000, guid: abe711b9f01a65041bec4b7178c16c92, type: 2}
   currentLevel: 0
   board: {fileID: 308843792}
 --- !u!1 &1878873433

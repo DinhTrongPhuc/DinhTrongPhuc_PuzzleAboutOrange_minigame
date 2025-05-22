@@ -1,14 +1,23 @@
 using UnityEngine;
 using TMPro;
+using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour
 {
     public BoardManager board;
 
+    public GameObject orangeFullPrefab;
+
     public float timeLimit = 45f;
     private float timer;
     public TextMeshProUGUI timerText;
     public GameObject winPanel, losePanel;
+    internal static GameManager Instance;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     void Start()
     {
@@ -25,17 +34,27 @@ public class GameManager : MonoBehaviour
             GameOver(false);
         }
 
-        if (CheckCompleteOrange())
-        {
-            GameOver(true);
-        }
-
     }
 
-    bool CheckCompleteOrange()
+    public void OnCompleteOrange(List<OrangePartCollider> parts)
     {
-        return board.CheckCompleteOrange();
+        // Tạo quả cam hoàn chỉnh ở vị trí trung tâm
+        Vector3 center = Vector3.zero;
+        foreach (var p in parts)
+            center += p.transform.position;
+
+        center /= parts.Count;
+
+        Instantiate(orangeFullPrefab, center, Quaternion.identity);
+
+        // Xóa các mảnh cam
+        foreach (var p in parts)
+            Destroy(p.gameObject);
+
+        GameOver(true);
     }
+
+
 
     public void GameOver(bool win)
     {

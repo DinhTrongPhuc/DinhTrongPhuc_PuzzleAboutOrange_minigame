@@ -27,4 +27,18 @@ public class SceneLoadManagerButton : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+
+    public void IsClickLevel1()
+    {
+        SceneManager.LoadScene("Level 1");
+    }
+
+    public void IsClickLevel2()
+    {
+        SceneManager.LoadScene("Level 2");
+    }
+    public void IsClickLevel3()
+    {
+        SceneManager.LoadScene("Level 3");
+    }
 }

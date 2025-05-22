@@ -56,36 +56,36 @@ public class BoardManager : MonoBehaviour
 
     }
 
-    public bool CheckCompleteOrange()
-    {
-        for (int x = 0; x < 3; x++)
-        {
-            for (int y = 0; y < 3; y++)
-            {
-                GameObject tl = GetAt(x, y);
-                GameObject tr = GetAt(x + 1, y);
-                GameObject br = GetAt(x + 1, y + 1);
-                GameObject bl = GetAt(x, y + 1);
+    // public bool CheckCompleteOrange()
+    // {
+    //     for (int x = 0; x < 3; x++)
+    //     {
+    //         for (int y = 0; y < 3; y++)
+    //         {
+    //             GameObject tl = GetAt(x, y);
+    //             GameObject tr = GetAt(x + 1, y);
+    //             GameObject br = GetAt(x + 1, y + 1);
+    //             GameObject bl = GetAt(x, y + 1);
 
-                if (tl != null && tr != null && br != null && bl != null)
-                {
-                    Tile tileTL = tl.GetComponent<Tile>();
-                    Tile tileTR = tr.GetComponent<Tile>();
-                    Tile tileBR = br.GetComponent<Tile>();
-                    Tile tileBL = bl.GetComponent<Tile>();
+    //             if (tl != null && tr != null && br != null && bl != null)
+    //             {
+    //                 Tile tileTL = tl.GetComponent<Tile>();
+    //                 Tile tileTR = tr.GetComponent<Tile>();
+    //                 Tile tileBR = br.GetComponent<Tile>();
+    //                 Tile tileBL = bl.GetComponent<Tile>();
 
-                    if (tileTL.Type == OrangePartType.TopLeft &&
-                        tileTR.Type == OrangePartType.TopRight &&
-                        tileBR.Type == OrangePartType.BottomRight &&
-                        tileBL.Type == OrangePartType.BottomLeft)
-                    {
-                        return true;
-                    }
-                }
-            }
-        }
-        return false;
-    }
+    //                 if (tileTL.Type == OrangePartType.TopLeft &&
+    //                     tileTR.Type == OrangePartType.TopRight &&
+    //                     tileBR.Type == OrangePartType.BottomRight &&
+    //                     tileBL.Type == OrangePartType.BottomLeft)
+    //                 {
+    //                     return true;
+    //                 }
+    //             }
+    //         }
+    //     }
+    //     return false;
+    // }
 
 
     public bool IsEmpty(int x, int y)

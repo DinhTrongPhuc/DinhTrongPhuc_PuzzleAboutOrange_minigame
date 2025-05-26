@@ -2326,7 +2326,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   board: {fileID: 308843792}
   orangeFullPrefab: {fileID: 8827074360884385280, guid: 031870331787e734cac5fe2887e2c4f8, type: 3}
-  timeLimit: 10
+  timeLimit: 45
   timerText: {fileID: 914529142}
   winPanel: {fileID: 1712096050}
   losePanel: {fileID: 1370033206}

@@ -24,7 +24,6 @@
 - Ghép 4 mảnh đúng vị trí sẽ tạo thành 1 quả cam hoàn chỉnh.
 - Mỗi màn chơi có giới hạn **45 giây** để hoàn thành.
 - Có các **chướng ngại vật cố định** trên bảng chơi.
-- Game sử dụng **UI Canvas** và các ảnh tĩnh, không có hiệu ứng hay âm thanh.
 
 ## 🛠️ Cài đặt và chạy game
 

@@ -4,7 +4,7 @@
 
 ## 📸 Demo
 
-![Demo Gameplay](C:\Unity\DinhTrongPhuc_PuzzleAboutOrange_minigame\Assets\_Asset\puzzleaboutorange\demo\Artboard 1.png)
+![Demo Gameplay](C:\Unity\DinhTrongPhuc_PuzzleAboutOrange_minigame\Assets\_Asset\puzzleaboutorange\demo\Artboard1.png)
 
 
 ## 🎮 Gameplay

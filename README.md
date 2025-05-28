@@ -4,7 +4,18 @@
 
 ## 📸 Demo
 
-![Demo Gameplay](C:\Unity\DinhTrongPhuc_PuzzleAboutOrange_minigame\Assets\_Asset\puzzleaboutorange\demo\Artboard1.png)
+![Demo Gameplay](https://drive.google.com/file/d/1tzwhJYjhHMfYaAepnviCfOkluC5ey0Up/view?usp=drive_link)
+
+![Demo Gameplay](https://drive.google.com/file/d/16ND4gtNHRNwof7EuWldZZQIWrzCKUHeW/view?usp=drive_link)
+
+![Demo Gameplay](https://drive.google.com/file/d/1wmMcts5U6e94Ecmy3asKh7Dk4UPapDlv/view?usp=drive_link)
+
+![Demo Gameplay](https://drive.google.com/file/d/10228XDJajK3GbmI23esk2NHnFU3Gwnut/view?usp=drive_link)
+
+![Demo Gameplay](https://drive.google.com/file/d/1I0t6DfweixvNSNHWIZSshXiZqDeZw4rl/view?usp=drive_link)
+
+![Demo Gameplay](https://drive.google.com/file/d/16Xu0Vd3vss-vsS4zfOELCMqomkB-0Bee/view?usp=drive_link)
+
 
 
 ## 🎮 Gameplay
